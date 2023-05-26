@@ -1,10 +1,12 @@
-
+import React from 'react';
 import './App.css';
+import Slick from './componentes/Slick'
+
 
 function App() {
   return (
     <div className="App">
-      oi
+      <Slick />
     </div>
   );
 }

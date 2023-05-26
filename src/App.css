@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  /* background-color: #282c34; */
 }
 
 .App-logo {
@@ -35,4 +36,19 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.sliderContainer{
+  width: 70%;
+  margin: 0 auto;
+}
+
+
+.carrocelContainer{
+  background: rgb(29, 153, 153);
+  color: white;
+}
+
+.slick-prev:before, .slick-next:before {
+  color: rgb(10, 10, 10) !important;
 }
