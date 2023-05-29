@@ -1,8 +1,33 @@
 .sliderContainer{
     color: white;
-    background: rgb(175, 11, 11);
     height: 8rem;
     justify-content: center;
     align-items: center;
     display: flex;
+    text-align: center;
+    height: auto;
+}
+
+.sliderContainer{
+    width: 70%;
+    margin: 0 auto;
+  }
+  
+  
+  .carrocelContainer{
+    background: rgb(29, 153, 153);
+    color: white;
+  }
+  
+  .slick-prev:before, .slick-next:before {
+    color: rgb(10, 10, 10) !important;
+  }
+
+
+
+img{
+    overflow: hidden;
+    height: 35vh;
+    max-width: 100%;
+    margin: 0 auto;
 }

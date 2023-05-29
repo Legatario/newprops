@@ -4,16 +4,16 @@ import "./Menu.css"
 
 const Menu = () =>{
     return(
-        <nav>
-            <ul>
-                <li>
-                    <NavLink to="/">Home</NavLink>
+        <nav className="navbar navbar-expand-lg bg-body-tertiary text-bg-dark">
+            <ul className="navbar-nav">
+                <li className="nav-item">
+                    <NavLink to="/" className="nav-link text-light">Home</NavLink>
                 </li>
-                <li>
-                    <NavLink to="/cadastro">Cadastro</NavLink>
+                <li className="nav-item">
+                    <NavLink to="/cadastro" className="nav-link text-light">Cadastro</NavLink>
                 </li>
-                <li>
-                    <NavLink to="/mensagens">Mensagens</NavLink>
+                <li className="nav-item">
+                    <NavLink to="/mensagens" className="nav-link text-light">Mensagens</NavLink>
                 </li>
             </ul>
         </nav>

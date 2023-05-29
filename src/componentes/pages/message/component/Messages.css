@@ -1,0 +1,11 @@
+.card{
+    width: 18rem;
+
+}
+
+.cards-container{
+    gap: 10px;
+    display: flex;
+    margin: 10px;
+    flex-wrap: wrap;
+}
