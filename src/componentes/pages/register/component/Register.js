@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 
+
 const Register = ({ onRegister }) => {
     const [formData, setFormData] = useState({
         name: "",

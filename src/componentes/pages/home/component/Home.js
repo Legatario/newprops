@@ -1,10 +1,10 @@
 import React from "react";
+import Slick from "./slick/Slick"
 
 const Home = () => {
   return (
     <div>
-      <h2>Página Inicial</h2>
-      <p>Aqui está o carrossel de imagens...</p>
+        <Slick />
     </div>
   );
 };

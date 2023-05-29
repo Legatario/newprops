@@ -1,0 +1,8 @@
+.sliderContainer{
+    color: white;
+    background: rgb(175, 11, 11);
+    height: 8rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
